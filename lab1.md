@@ -191,7 +191,7 @@ STORE x0, 0*REGBYTES(sp)
     STORE x8, 8*REGBYTES(sp)
 STORE x9, 9*REGBYTES(sp)
 ```
-这是一些通用的寄存器存储的位置在RISC-V中位置，在RISCV-V中REGBYTES为定值4，这样就能够得出x1存储在栈中的地址为sp+4。
+这是一些通用的寄存器存储的位置在RISC-V中位置，在RISCV-V三十二位中REGBYTES为定值4，这样就能够得出x1存储在栈中的地址为sp+4。
 
 此外还有其他一些特殊的寄存器的地址也是通过偏移量来寻址的
 ```
